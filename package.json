@@ -1,0 +1,24 @@
+{
+  "name": "travis-sink",
+  "version": "1.0.0",
+  "description": "a sink for travis builds",
+  "main": "index.js",
+  "scripts": {
+    "docs": "documentation build node_modules/travis-sync-test/index.js -f html -o docs/",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapsam/travis-sink.git"
+  },
+  "author": "mapsam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapsam/travis-sink/issues"
+  },
+  "homepage": "https://github.com/mapsam/travis-sink",
+  "dependencies": {
+    "documentation": "^4.0.0-beta2",
+    "travis-sync-test": "https://github.com/mapsam/travis-sync-test/tarball/master"
+  }
+}
